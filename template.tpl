@@ -87,7 +87,7 @@ const callInWindow = require('callInWindow');
 
 (function() {
   
-  if(!data.ingestionId.includes('mwit-')) {
+  if(!data.ingestionId) {
     return;
   }
 
