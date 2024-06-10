@@ -15,5 +15,7 @@
 homepage: "https://www.madewithintent.ai"
 documentation: "https://madewithintent.notion.site/Made-with-Intent-GTM-Template-Implementation-65d14efde9ff44acb3ad1276e7660326"
 versions:
+  - sha: 61ed159aed56b423bfb96cf8842e9a19d7fe696b
+    changeNotes: Removed ES5 incompatible code
   - sha: 0c61bd6961de18b25ead2d642f3a613d679d03be
     changeNotes: Initial release.
