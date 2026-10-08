@@ -52,6 +52,13 @@ ___TEMPLATE_PARAMETERS___
     "help": "A two-letter language code, e.g. en or de"
   },
   {
+    "type": "TEXT",
+    "name": "cookieDomain",
+    "displayName": "Cookie Domain",
+    "simpleValueType": true,
+    "help": "Domain to set cookies on, e.g. 'madewithintent.ai' - local storage is used by default unless you set this value. This is required if you host on multiple subdomains e.g. madewithitnent.ai and chekcout.madewithintent.ai"
+  },
+  {
     "type": "GROUP",
     "name": "advancedFields",
     "displayName": "Advanced Fields",
@@ -101,6 +108,10 @@ const callInWindow = require('callInWindow');
     _config.dataLayer = data.dataLayer;
   }
   
+  if(data.cookieDomain) {
+    _config.cookieDomain = data.cookieDomain;
+  }
+
   if(data.dataLayerDisabled) {
     _config.disableDatalayer = true;
   }
