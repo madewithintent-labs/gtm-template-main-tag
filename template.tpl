@@ -56,7 +56,7 @@ ___TEMPLATE_PARAMETERS___
     "name": "cookieDomain",
     "displayName": "Cookie Domain",
     "simpleValueType": true,
-    "help": "Domain to set cookies on, e.g. 'madewithintent.ai' - local storage is used by default unless you set this value. This is required if you host on multiple subdomains e.g. madewithitnent.ai and chekcout.madewithintent.ai"
+    "help": "Domain to set cookies on, e.g. 'madewithintent.ai' - local storage is used by default unless you set this value. This is required if you host on multiple subdomains e.g. madewithitnent.ai and checkout.madewithintent.ai"
   },
   {
     "type": "GROUP",
